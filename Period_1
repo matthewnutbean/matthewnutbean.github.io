@@ -107,7 +107,7 @@
   										</header>
   										<ul>
     										<li><a href="#Home">Home</a></li>
-    										<li><a href="#Period_1.html">High School Period</a></li>
+    										<li><a href="Period_1.html">High School Period</a></li>
     										<li><a href="#Period_2">Undergraduate Period</a></li>
     										<li><a href="#Resume">Resume</a></li>
     										<li><a href="#Contact">Contact</a></li>
