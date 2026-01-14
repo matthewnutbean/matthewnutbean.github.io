@@ -2082,9 +2082,6 @@ button,
 }
 
 .topbar-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1em 2em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2099,14 +2096,16 @@ button,
 #topbar nav ul {
   list-style: none;
   display: flex;
-  gap: 2em;
+  gap: 2.5em;
   margin: 0;
+  margin-left: 0;
 }
 
 #topbar nav ul li a {
   color: #ffbf00;
   text-decoration: none;
   font-weight: 500;
+  font-size: 1.05em;   /* try 1.0–1.15em */
 }
 
 #topbar nav ul li a:hover {
@@ -2357,6 +2356,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
