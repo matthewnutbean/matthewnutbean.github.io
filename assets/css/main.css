@@ -79,7 +79,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff; }
+  background: #c0d9ed; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -2076,7 +2076,7 @@ button,
   top: 0;
   left: 0;
   width: 100%;
-  background: #1b1f22;
+  background: #e6e7e8;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
@@ -2235,14 +2235,14 @@ button,
 
 /* Footer */
 #footer .copyright {
-  color: #9fa3a6;
+  color: #ffffff;
   font-size: 0.9em; }
   #footer .copyright a {
     color: inherit; }
 
 /* Footer */
 #footer {
-  background: #1b1f22;
+  background: #e6e6e8;
   color: #ffffff;
   text-align: center;
   padding: 2em 1em;
@@ -2357,4 +2357,5 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
