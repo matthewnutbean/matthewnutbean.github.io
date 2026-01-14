@@ -4,6 +4,7 @@
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2068,6 +2069,53 @@ button,
         position: absolute;
         top: 1em;
         width: 5em; } }
+
+/* Top Navigation Bar */
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1b1f22;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.topbar-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#topbar .logo {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+#topbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+}
+
+#topbar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#topbar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#wrapper {
+  padding-top: 80px;
+}
 
 /* Header */
 #header {
