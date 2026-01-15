@@ -2296,6 +2296,21 @@ body {
   color: var(--color-accent);
 }
 
+/* Back link */
+.back-link {
+  margin-bottom: 1.5em;
+  font-size: 0.9em;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
 /* Menu */
 #menu ul {
   -moz-user-select: none;
@@ -2375,6 +2390,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
