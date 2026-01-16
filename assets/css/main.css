@@ -2314,7 +2314,7 @@ body {
 
 /* Pull section content closer to the top bar */
 #main section {
-  padding-top: 0.5em;
+  padding-top: 0em;
 }
 
 /* Menu */
@@ -2396,6 +2396,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
