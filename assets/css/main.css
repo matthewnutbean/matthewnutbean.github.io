@@ -2319,6 +2319,20 @@ body {
 }
 */
 
+/* Horizontal icon + content layout */
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.feature-row .icon {
+  font-size: 2.5em;
+  min-width: 2.5em;
+  text-align: center;
+}
+
+
 /* Menu */
 #menu ul {
   -moz-user-select: none;
@@ -2398,6 +2412,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
