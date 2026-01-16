@@ -2354,6 +2354,8 @@ body {
   margin-top: auto;
 }
 
+/* Cache reset */
+
 /* Menu */
 #menu ul {
   -moz-user-select: none;
@@ -2433,6 +2435,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
