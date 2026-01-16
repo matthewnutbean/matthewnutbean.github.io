@@ -2337,6 +2337,22 @@ body {
   text-align: center;
 }
 
+/* Footer Fix */
+body {
+  min-height: 100vh;
+}
+
+#wrapper {
+  min-height: 100vh;
+}
+
+#main {
+  flex: 1 0 auto;
+}
+
+#footer {
+  margin-top: auto;
+}
 
 /* Menu */
 #menu ul {
@@ -2417,6 +2433,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
