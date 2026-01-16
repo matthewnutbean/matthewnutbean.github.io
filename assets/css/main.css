@@ -2299,8 +2299,8 @@ body {
 /* Back link */
 .back-link {
   margin-bottom: 1.5em;
-  font-size: 0.9em;
-  margin-top: 0em;
+  font-size: 1em;
+  margin-top: 1em;
 }
 
 .back-link a {
@@ -2314,7 +2314,7 @@ body {
 
 /* Pull section content closer to the top bar */
 #main section {
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 /* Menu */
@@ -2396,6 +2396,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
