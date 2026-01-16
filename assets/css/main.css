@@ -1377,7 +1377,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #f56a6a;
+      color: #ffbf00;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -2415,6 +2415,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
