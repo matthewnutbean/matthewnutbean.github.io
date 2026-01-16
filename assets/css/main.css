@@ -1841,9 +1841,9 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -moz-flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-height: 100vh; }
 
@@ -1861,7 +1861,8 @@ button,
   #main > .inner {
     padding: 0 6em 0.1em 6em ;
     margin: 0 auto;
-    max-width: 110em; }
+    max-width: 110em; 
+  	min-height: 100%;}
     #main > .inner > section {
       padding: 2em 0 2em 0 ;
       border-top: solid 2px rgba(210, 215, 217, 0.75); }
@@ -2250,6 +2251,7 @@ button,
   text-align: center;
   padding: 2em 1em;
   margin-top: 4em;
+  position: relative;
 }
 
 #footer .copyright {
@@ -2415,6 +2417,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
