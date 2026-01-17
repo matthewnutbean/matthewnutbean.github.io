@@ -1835,6 +1835,12 @@ button,
           .posts article:last-child:after {
             display: none; } }
 
+/* Center last card when odd number of posts */
+.posts article:last-child:nth-child(odd) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Wrapper */
 #wrapper {
   display: -moz-flex;
@@ -2435,6 +2441,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
