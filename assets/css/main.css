@@ -1837,8 +1837,19 @@ button,
 
 /* Center last card when odd number of posts */
 .posts article:last-child:nth-child(odd) {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Remove grid divider on centered card */
+.posts article:last-child:nth-child(odd)::before {
+  display: none;
+}
+
+/* Remove Editorial grid borders for cleaner layout */
+.posts article::before {
+  display: none;
 }
 
 /* Wrapper */
@@ -2441,6 +2452,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
