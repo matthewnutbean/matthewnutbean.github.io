@@ -1777,7 +1777,7 @@ button,
       .posts article .image img {
         display: block;
         width: 100%; }
-  @media screen and (min-width: 1681px) {
+  @media screen and (min-width: 1201px) {
     .posts article:nth-child(3n + 1):before {
       display: none; }
     .posts article:nth-child(3n + 1):after {
@@ -1788,7 +1788,7 @@ button,
         height: 100%; }
       .posts article:nth-last-child(1):after, .posts article:nth-last-child(2):after, .posts article:nth-last-child(3):after {
         display: none; } }
-  @media screen and (max-width: 1680px) {
+  @media screen and (max-width: 1200px) {
     .posts article {
       width: calc(50% - 6em); }
       .posts article:nth-last-child(3) {
@@ -2465,6 +2465,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
