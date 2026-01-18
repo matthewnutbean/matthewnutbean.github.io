@@ -2379,6 +2379,13 @@ body {
 
 /* Cache reset */
 
+/* Removal of card lines */
+.posts article:before,
+.posts article:after {
+  display: none !important;
+}
+
+
 /* Menu */
 #menu ul {
   -moz-user-select: none;
@@ -2458,6 +2465,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
