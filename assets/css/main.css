@@ -2389,6 +2389,13 @@ body {
   height: auto;
 }
 
+.resume-preview img {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border-radius: 6px;
+  background: white;
+  padding: 10px;
+}
+
 
 /* Cache reset */
 
@@ -2478,6 +2485,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
