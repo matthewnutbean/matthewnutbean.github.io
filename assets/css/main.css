@@ -2479,7 +2479,22 @@ header.major h2 {
   margin-top: 0;
 }
 
+.home-intro {
+  display: flex;
+  align-items: flex-start;
+}
 
+.intro-text {
+  width: 50%;
+}
+
+.intro-video {
+  width: 50%;
+}
+
+#main > .inner > section {
+  display: block;
+}
 
 /* Menu */
 #menu ul {
@@ -2560,6 +2575,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
