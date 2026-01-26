@@ -2424,8 +2424,8 @@ body {
 .hero-section {
   display: flex;
   align-items: center;
-  gap: 3em;
-  margin-top: 2em;
+  gap: 1em;
+  margin-top: 1em;
   animation: fadeUp 0.8s ease;
 }
 
@@ -2549,6 +2549,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
