@@ -2421,6 +2421,31 @@ body {
   display: none !important;
 }
 
+.hero-section {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  margin-top: 2em;
+}
+
+/* Left text column */
+.hero-text {
+  flex: 1;
+}
+
+/* Right video column */
+.hero-video {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Video sizing */
+.hero-video video {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+}
 
 /* Menu */
 #menu ul {
@@ -2501,6 +2526,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
