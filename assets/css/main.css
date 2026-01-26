@@ -2424,8 +2424,8 @@ body {
 .hero-section {
   display: flex;
   align-items: center;
-  gap: 1em;
-  margin-top: 1em;
+  gap: 3em;
+  margin-top: 2em;
   animation: fadeUp 0.8s ease;
 }
 
@@ -2469,6 +2469,12 @@ body {
     transform: translateY(0);
   }
 }
+
+header.major {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 
 /* Menu */
 #menu ul {
@@ -2549,6 +2555,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
