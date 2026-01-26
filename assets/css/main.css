@@ -2449,6 +2449,14 @@ body {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+.video-credit {
+  font-size: 0.85em;
+  color: #999;
+  margin-top: 0.5em;
+  text-align: right;
+}
+
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -2539,6 +2547,7 @@ body {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
