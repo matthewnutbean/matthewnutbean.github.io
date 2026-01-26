@@ -2481,7 +2481,9 @@ header.major h2 {
 
 .home-intro {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
+  gap: 2em;
 }
 
 .intro-text {
@@ -2575,6 +2577,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
