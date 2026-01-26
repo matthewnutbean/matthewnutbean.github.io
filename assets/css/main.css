@@ -2119,7 +2119,7 @@ button,
   margin-left: auto;
 }
 
-.topbar-social a {
+.topbar-social .fa-linkedin {
   font-size: 2em;
   color: #f2b705;
   text-decoration: none;
@@ -2605,6 +2605,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
