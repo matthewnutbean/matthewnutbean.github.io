@@ -2106,6 +2106,7 @@ button,
   background: #0a2540;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 0.5em 0;
 }
 
 .topbar-inner {
@@ -2113,6 +2114,7 @@ button,
   align-items: center;
   justify-content: space-between;
   padding: 1.25em 2em;
+  min-height: 0;
 }
 
 .topbar-social {
@@ -2123,6 +2125,7 @@ button,
   font-size: 2em;
   color: #f2b705;
   text-decoration: none;
+  line-height: 1;
 }
 
 .topbar-social a:hover {
@@ -2148,6 +2151,7 @@ button,
   text-decoration: none;
   font-weight: 500;
   font-size: 1.05em;   /* try 1.0–1.15em */
+  line-height: 1.2;
 }
 
 #topbar nav ul li a:hover {
@@ -2605,6 +2609,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
