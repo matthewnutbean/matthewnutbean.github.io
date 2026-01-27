@@ -2542,6 +2542,7 @@ header.major h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  gap: 1.5em;
 }
 
 .image-credit {
@@ -2632,6 +2633,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
