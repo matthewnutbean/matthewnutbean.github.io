@@ -79,7 +79,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #38386c; } /* #f5f7fa */
+  background: #3b518d; } /* #f5f7fa */
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -2103,7 +2103,7 @@ button,
   top: 0;
   left: 0;
   width: 100%;
-  background: #855e97; /* #0a2540 */
+  background: #784541; /* #0a2540 */
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   padding: 0em 0;
@@ -2638,6 +2638,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
