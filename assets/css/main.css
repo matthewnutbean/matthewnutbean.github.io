@@ -79,7 +79,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #f5f7fa; }
+  background: #38386c; } /* #f5f7fa */
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -2123,7 +2123,7 @@ button,
 
 .topbar-social .fa-linkedin {
   font-size: 2em;
-  color: #f2b705;
+  color: #68acbf; /* #f2b705 */
   text-decoration: none;
   line-height: 1;
 }
@@ -2638,6 +2638,7 @@ header.major h2 {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
 
 
 
